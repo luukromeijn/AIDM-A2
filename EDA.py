@@ -107,6 +107,7 @@ ax = sns.lineplot(
         x='date',
         y='item_cnt_day',
         data=moving_average)
+ax.set_title("365 day moving average ")
 
 
 plt.legend()
